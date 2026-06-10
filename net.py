@@ -5,11 +5,9 @@ from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from tqdm import tqdm_notebook
-
-
 import random
 import numpy as np
-import torch
+
 def seed_everything(seed=42):
 
     random.seed(seed)
